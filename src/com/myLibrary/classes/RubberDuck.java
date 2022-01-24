@@ -1,20 +1,14 @@
 package com.myLibrary.classes;
 
-import com.myLibrary.interfaces.Flyable;
 import com.myLibrary.interfaces.Quackable;
 
-public class MallardDuck extends Duck implements Flyable, Quackable {
+public class RubberDuck extends Duck implements Quackable {
     @Override
     public String Display() {
         return "Display " + getClass();
-    }
-
-    public String Fly() {
-        return "Fly " + getClass();
     }
 
     public String Quack() {
         return "Quack " + getClass();
     }
 }
-
