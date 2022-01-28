@@ -1,5 +1,5 @@
 package com.myLibrary.interfaces;
 
-public interface Flyable {
+public interface FlyBehavior {
     String Fly();
 }

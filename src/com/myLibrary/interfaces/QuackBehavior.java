@@ -1,5 +1,5 @@
 package com.myLibrary.interfaces;
 
-public interface Quackable {
+public interface QuackBehavior {
     String Quack();
 }
